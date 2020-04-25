@@ -1,0 +1,36 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: false
+          fetch-depth: 0
+
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: 0.69.2
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+          sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
+          sudo dpkg -i hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
+          rm -f *.deb
+
+      - name: Build and Deploy
+        run: hugo --minify
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
