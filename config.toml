@@ -7,6 +7,9 @@ theme = "cayman-hugo-theme"
 pygmentsCodefences = true
 pygmentsStyle = "pygments"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [taxonomies]
   tag = "tags"
 

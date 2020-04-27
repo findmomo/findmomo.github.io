@@ -2,7 +2,7 @@
 title: "Findmomo Island Technology Support"
 date: 2020-04-25T20:25:30+08:00
 draft: false
-tags: [ findmomo ]
+tags: [ island ]
 ---
 
 ## Welcome to Findmomo-Island
@@ -18,6 +18,10 @@ tags: [ findmomo ]
 ![](../images/island/support_04.PNG)
 ![](../images/island/support_05.PNG)
 ![](../images/island/support_06.PNG)
+
+### Open Apple Store
+
+<img src="../images/island/qrcode.png" width="128px">
 
 ### Contact us
 
