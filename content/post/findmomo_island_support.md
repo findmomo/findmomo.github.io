@@ -19,9 +19,9 @@ tags: [ island ]
 ![](../images/island/support_05.PNG)
 ![](../images/island/support_06.PNG)
 
-### Open Apple Store
+### Open On The App Store
 
-<img src="../images/island/qrcode.png" width="128px">
+<a href="https://apps.apple.com/us/app/findmomo-island/id1509905108" target="_blank"><img src="../images/island/qrcode.png" width="128px"></a>
 
 ### Contact us
 
