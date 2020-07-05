@@ -21,7 +21,13 @@ tags: [ island ]
 
 ### Open On The App Store
 
-<a href="https://apps.apple.com/us/app/findmomo-island/id1509905108" target="_blank"><img src="../images/island/qrcode.png" width="128px"></a>
+<table>
+<tr><td>
+<a href="https://apps.apple.com/us/app/findmomo-island/id1509905108" target="_blank"><img src="../images/island/qrcode.png" width="192px"><br/>iPhone/iPad</a>
+</td><td>
+<a href="https://play.google.com/store/apps/details?id=org.cattails.findmomoisland" target="_blank"><img src="../images/island/qrcode_android.png" width="192px"><br/>Android</a>
+</td></tr>
+</table>
 
 ### Contact us
 

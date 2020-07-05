@@ -21,7 +21,13 @@ tags: [ donuts ]
 
 ### Open On The App Store
 
-<a href="https://apps.apple.com/us/app/findmomo-donuts/id1519561372" target="_blank"><img src="../images/donuts/qrcode.png" width="128px"></a>
+<table>
+<tr><td>
+<a href="https://apps.apple.com/us/app/findmomo-donuts/id1519561372" target="_blank"><img src="../images/donuts/qrcode.png" width="192px"><br/>iPhone/iPad</a>
+</td><td>
+<a href="https://play.google.com/store/apps/details?id=org.cattails.findmomodonuts" target="_blank"><img src="../images/donuts/qrcode_android.png" width="192px"><br/>Android</a>
+</td></tr>
+</table>
 
 ### Contact us
 
